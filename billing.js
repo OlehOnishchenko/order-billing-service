@@ -1,7 +1,7 @@
 // Data Coupling: передаємо лише рядок city та weightKg
 function calculateDeliveryCost(city, weightKg) {
     const baseRate = city === "Ivano-Frankivsk" ? 50.0 : 110.0;
-    return baseRate + (weightKg * 12.0);
+    return baseRate + (weightKg * 15.0);
 }
 
 // Окрема функція для стандартного рахунку з taxRate = 0.20 за замовчуванням
